@@ -1915,7 +1915,8 @@
 
 /* List */
 	ul.textIcon li{
-		padding-top: 2em;
+		text-align: justify;
+		padding: 2em 2em 0 2em;
 	}
 
 	ol.default {
@@ -2034,6 +2035,8 @@
 	input[type="submit"],
 	input[type="reset"],
 	.button {
+		border-radius: 50px;
+		box-shadow:  1px 1px 1px #1c2021;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2103,7 +2106,8 @@
 
 	.wrapper {
 		margin-bottom: 5em;
-		padding: 5em 1em;
+		padding: 3em 1em;
+		border-radius: 30px;
 	}
 
 		.wrapper.style1 {
@@ -2119,7 +2123,7 @@
 		}
 
 			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
+				background: rgba(255, 255, 255, 0.45) !important;
 			}
 
 			.wrapper.style2 .button.special {
@@ -2702,6 +2706,7 @@
 			}
 
 			.buttonmagic{
+				color: 00D1FF;
 				margin-bottom:5em;			
 			}
 

@@ -6,12 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Konsigue | Quireo Invertir</title>
-		<link rel="icon" type="image/png" href="../html5up-twenty/images/KonsigueFavIcon.png">
+		<title>Konsigue | Principal</title>
+		<link rel="icon" type="image/png" href="../Konsigue_home/images/KonsigueFavIcon.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/quiero-invertir.css" />
+		<link rel="stylesheet" href="assets/css/style-calculator.css"/>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -21,7 +22,7 @@
 			<!-- Header -->
 				<header id="header" class="alt">	
 					<div style="margin-left: -1em;">
-						<img src="../html5up-twenty/images/KonsigueLogo.png" align="left">
+						<img src="../Konsigue_home/images/KonsigueLogo.png" align="left">
 						<h1 id="logo"><a href="index.html">&nbsp; Konsigue</a></h1>
 					</div>
 					<nav id="nav">
@@ -45,133 +46,140 @@
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
 					-->
+
+					<!-- Here goes the source code of the calculator -->
 					<div class="inner">
-
-						<header>
-							<h2>KONSIGUE</h2>
-						</header>
-						<p>Rendimientos de hasta el <strong>18% Anual</strong> 
-						<br />
-						Buscamos, analizámos y seleccionamos 
-						<br />
-						las mejores oportunidades de inversión</p>
-						<footer>
-							<ul class="buttons vertical">
-								<li><a href="#main" class="button fit scrolly">CONÓCENOS</a></li>
-							</ul>
-						</footer>
-
+						<div class="row">
+							<div class="col-md-6">
+								<div class="hero-unit" id="banner-text">
+									<h1 class="big-title text-white" style="text-transform: none;">Aquí se debe insertar la calculadora</h1>
+								</div>
+							</div>
+							<div class="col-md-6" id="calculator">
+								<div class="calculator-body">
+									<div class="calculator-header blue-bg">
+										<h2>Calcula los rendimientos de tu inversión</h2>
+									</div>
+									<div class="calculator-content">
+										<div class="price-box">
+											<div class="price-slider">
+												<input type="hidden" id="amount" class="form-control">
+												<label class="main-label">Monto de inversión:</label>
+												<div id="slider"></div>
+											</div>
+											<div class="price-slider">
+												<input type="hidden" id="duration" class="form-control">
+												<label class="main-label">Plazo:</label>
+												<div id="slider2"></div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-4 blue-bg">
+												<p class="text-white text-center">INVERSIÓN:
+												<br />$<span id="investment-text"></span></p>
+											</div>
+											<div class="col-md-4 light-blue-bg">
+												<p class="text-white text-center">TASA (14% ANUAL):
+												<br />$<span id="rate-text"></span></p>
+											</div>
+											<div class="col-md-4 dark-blue-bg">
+												<p class="text-white text-center">TOTAL:
+												<br />$<span id="total-text"></span></p>
+											</div>
+										</div> <!-- /row -->
+										<div class="row">
+											<div class="col-md-6  col-md-offset-3">
+												<a class="btn btn-sm blue-bg text-white btn-center" href="sign_up.html">¡Invierte ahora!</a>
+											</div>
+				
+										</div>
+									</div> <!-- /calculator content -->
+									<div class="calculator-footer light-gray-bg">
+										<p class="text-center">SI TIENES DUDAS, LLÁMANOS SIN COSTO AL:
+										<br />(81)1107-1590
+										<br />
+										Calculo informativo.</p>
+									</div> <!-- /calculator footer -->
+								</div> <!-- /calculator body -->
+							</div> <!-- /col -->
+						</div> <!-- /row -->
 					</div>
 
 				</section>
 
 			<!-- Main -->
-				<article id="main">
-
-					<header class="special container">
-						<span class="icon fa-bar-chart-o"></span>					
-						
-						<h2><strong>INVIERTE</strong> en facturas por cobrar a través de <strong>KONSIGUE.</strong>
-						<br />
-						Una oportunidad de inversión diversificada que ofrece sólidos rendimientos a corto plazo.</h2>
-					</header>
-
 					<!-- One -->
-						<section class="wrapper style2 container special-alt " >
-							<div class="row 50%">
-								<div class="6u 12u(narrower)">
-
-									<header>
-										<h2>Conviertete en <strong>Inversionista</strong></h2>
-									</header>
-									<ul class="textIcon">
-										<li><span class="icon fa-check-circle"></span>&nbsp;Rentabilidad a partir del primer mes.</li>
-										<li><span class="icon fa-check-circle"></span>&nbsp;Elige las mejores oportunidades de inversión.</li>
-										<li><span class="icon fa-check-circle"></span>&nbsp;Apoya la economía real y el talento de las PYMES.</li> 
-										<li><span class="icon fa-check-circle"></span>&nbsp;Invierte desde $250 pesos.</li>
-									</ul>
-									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button buttonmagic">Ver más</a></li>
-										</ul>
-									</footer>
-
-								</div>
-								<div class="6u 12u(narrower)">
-									<header>
-										<h2><strong>Empresas</strong></h2>
-									</header>
-									<ul class="textIcon">
-										<li><span class="icon fa-check-circle"></span> &nbsp;Financiamiento eficiente, ágil y de bajo costo.</li>
-										<li><span class="icon fa-check-circle"></span> &nbsp;Rápidez, flexibilidad y transparencia.</li>
-										<li><span class="icon fa-check-circle"></span> &nbsp;Financiamos hasta el 100% de sus facturas.</li>
-										<li><span class="icon fa-check-circle"></span> &nbsp;Mejora el flujo de efectivo de tu empresa.</li>
-									</ul>
-									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Ver más</a></li>
-										</ul>
-									</footer>
-								</div>
-							</div>
-						</section>
-
-						<!-- How to insert an image-responsive 
-							<div class="image fit">
-								<img src="./images/investor.jpg" class="img">
-							</div>
-						-->
-
-					<!-- Two -->
 						<section class="wrapper style1 container special">
 							<div class="row">
-								<div class="3u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
 										<span class="icon featured fa-child"></span>
 										<header>
-											<h3>Colabora</h3>
+											<h3>Libertad</h3>
 										</header>
-										<p>Nuestra plataforma genera una innovadora economía colaborativa en la que todos podemos participar y desarrollar económicamente la comunidad.</p>
+										<p style="text-align: justify;">Nuestra plataforma genera una innovadora economía colaborativa en la que todos podemos participar y desarrollar económicamente la comunidad.</p>
 									</section>
 
 								</div>
-								<div class="3u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 										<section>
 											<span class="icon featured fa-lock"></span>
 											<header>
-												<h3>Seguro</h3>
+												<h3>Análisis</h3>
 											</header>
-											<p>Nuestro sistema de factoraje financiero consiste en financiar colectivamente a PyMES que cuentan con la garantía de poseer facturas o documentos por cobrar.</p>
+											<p style="text-align: justify;">Nuestro sistema de factoraje financiero consiste en financiar colectivamente a PyMES que cuentan con la garantía de poseer facturas o documentos por cobrar.</p>
 										</section>
 	
 								</div>
-								<div class="3u 12u(narrower)">
+								<div class="4u 12u(narrower)">
 
 									<section>
 										<span class="icon featured fa-percent"></span>
 										<header>
-											<h3>Mejores tasas</h3>
+											<h3>Bajo riesgo</h3>
 										</header>
-										<p>Nuestra estructura operacional interna nos permite ofrecer mejores tasas al mercado que otras organizaciones.</p>
-									</section>
-
-								</div>
-								<div class="3u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Nacional</h3>
-										</header>
-										<p>Conseguimos financiamiento a pequeñas y medianas empresas en cualquier estado de la república mexicana.</p>
+										<p style="text-align: justify;" >Nuestra estructura operacional interna nos permite ofrecer mejores tasas al mercado que otras organizaciones.</p>
 									</section>
 
 								</div>
 							</div>
-						</section>
+							<div class="row">
+								<div class="4u 12u(narrower)">
 
+									<section>
+										<span class="icon featured fa-child"></span>
+										<header>
+											<h3>Accesible</h3>
+										</header>
+										<p style="text-align: justify;">Nuestra plataforma genera una innovadora economía colaborativa en la que todos podemos participar y desarrollar económicamente la comunidad.</p>
+									</section>
+
+								</div>
+								<div class="4u 12u(narrower)">
+
+										<section>
+											<span class="icon featured fa-lock"></span>
+											<header>
+												<h3>Eficiencia</h3>
+											</header>
+											<p style="text-align: justify;">Nuestro sistema de factoraje financiero consiste en financiar colectivamente a PyMES que cuentan con la garantía de poseer facturas o documentos por cobrar.</p>
+										</section>
+	
+								</div>
+								<div class="4u 12u(narrower)">
+
+									<section>
+										<span class="icon featured fa-percent"></span>
+										<header>
+											<h3>Transparencia</h3>
+										</header>
+										<p style="text-align: justify;" >Nuestra estructura operacional interna nos permite ofrecer mejores tasas al mercado que otras organizaciones.</p>
+									</section>
+								</div>
+							</div>
+						</section>
 				</article>
 
 			
@@ -185,7 +193,7 @@
 						<div class="4u 12u(narrower)">
 							<section>
 								<header>
-										<img src="../html5up-twenty/images/Konsigue.png" style="transform: scale(0.7, 0.7);
+										<img src="../Konsigue_home/images/Konsigue.png" style="transform: scale(0.7, 0.7);
 										-ms-transform: scale(0.7, 0.7);
 										-webkit-transform: scale(0.7, 0.7);">
 								</header>
